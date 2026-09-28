@@ -1,19 +1,20 @@
 # What is Machine Learning?
 
+^30873c
 AI is a broad field, so it is useful to begin with one of the fundamental ideas that supports many modern AI systems: **Machine Learning (ML)**. It's a way of teaching machines to make reasonably complex decisions using **mathematics, statistics, and probability**.
 
 Instead of explicitly programming every rule a machine should follow, we can give it data and allow it to learn useful patterns from that data.
 
 There are three major types of machine learning:
-1. **Supervised learning**
-2. **Unsupervised learning**
-3. **Reinforcement learning**
+1. **[[003 Supervised learning#^9e0a1d|Supervised learning]]**
+2. **[[Suplementary/Concepts#002 Introduction to ML Concepts|Unsupervised learning]]**
+3. **[[Suplementary/Concepts#002 Introduction to ML Concepts|Reinforcement learning]]**
 
 ## Supervised learning
 
 Imagine that you have **100 math tests** and you want to teach a student to perform well on similar tests. One way to do this is to give the student 70 of the tests to practise with. We call this **training**. Each test contains questions and answers. We can think of the questions as **features** and the correct answers as **labels**. The student completes each test and compares their answers with the answer key. They can then adjust their reasoning based on their mistakes. We hope that, after completing many tests, the student has discovered useful patterns and learned the underlying logic rather than simply memorising the answers.
 
-After the student has trained on the first 70 tests, we give them the remaining 30 tests without showing them the answer keys. The goal is to see whether the student can **generalise** what they learned from the first 70 tests to new tests they have never seen before. In machine learning, we can think of this process as: **Training data -> Learn patterns -> New data -> Make predictions**
+After the student has trained on the first 70 tests, we give them the remaining 30 tests without showing them the answer keys. The goal is to see whether the student can **generalise** what they learned from the first 70 tests to new tests they have never seen before. In machine learning, we can think of this process as: **Training data $\to$ Learn patterns $\to$ New data $\to$ Make predictions**
 
 If the student performs very well on the first 70 tests but performs poorly on the final 30 tests, they may have memorised the training examples instead of learning the underlying patterns. This is called **overfitting**. Similarly, if the student performs poorly on both the first 70 tests and the final 30 tests, they have probably failed to learn enough of the underlying patterns.This is called **underfitting**.
 
@@ -73,7 +74,7 @@ For example:
 - **Target:** $320,000.  
 - **Loss:** The difference between them.
 
-During training, the model attempts to **minimise the loss**. It repeatedly adjusts its parameters and evaluates the resulting loss. So the general idea is: **Make prediction -> Calculate loss -> Adjust parameters -> Make another prediction**. After many repetitions, we hope that the model's predictions become more accurate.
+During training, the model attempts to **minimise the loss**. It repeatedly adjusts its parameters and evaluates the resulting loss. So the general idea is: **Make prediction $\to$ Calculate loss $\to$ Adjust parameters $\to$ Make another prediction**. After many repetitions, we hope that the model's predictions become more accurate.
 
 ## Math matters
 
@@ -85,7 +86,7 @@ These ideas work together to allow a machine learning system to learn patterns f
 
 ## The basic cycle of supervised ML
 
-**Data -> Model -> Prediction -> Compare with target -> Calculate loss -> Adjust parameters -> Repeat**
+**Data $\to$ Model $\to$ Prediction $\to$ Compare with target $\to$ Calculate loss $\to$ Adjust parameters $\to$ Repeat**
 
 The process is repeated many times during training. The goal is not simply to make the model perform well on the examples it has already seen. The goal is for the model to learn useful patterns that allow it to perform well on **new examples**.
 

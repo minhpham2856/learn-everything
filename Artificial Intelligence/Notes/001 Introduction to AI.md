@@ -52,7 +52,7 @@ We could represent this decision-making process with a simple function:
 And if you are not seriously ill:
 **f(not seriously ill) = "Go to school"**
 
-The computer could therefore be given a function that takes your condition as input and produces a decision as output. In simple terms: **Information -> Function -> Decision**
+The computer could therefore be given a function that takes your condition as input and produces a decision as output. In simple terms: **Information $\to$ Function $\to$ Decision**
 
 ## The fundamental idea
 
@@ -63,6 +63,6 @@ At a basic level, we want a machine to:
 
 The difficult part of AI is not the basic concept of a function. The difficult part is creating functions that can handle **complex, uncertain, and previously unseen information**.
 
-For example, instead of explicitly programming: "If sick -> don't go to school.", we may want a system that can learn from millions of examples and determine for itself what information is relevant and what decision should be made.
+For example, instead of explicitly programming: "If sick $\to$ don't go to school.", we may want a system that can learn from millions of examples and determine for itself what information is relevant and what decision should be made.
 
-This is where **machine learning <ML>, statistics, and probability** become important.
+This is where **[[002 Intoduction to ML#^30873c|machine learning]], statistics, and probability** become important.

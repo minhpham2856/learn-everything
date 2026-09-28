@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software engineering/CSharp - Dotnet/Web API.md",
+                "file": "Artificial Intelligence/Notes/003 Supervised learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web API"
+              "title": "003 Supervised learning"
+            }
+          },
+          {
+            "id": "3bc12b9c907cefc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Artificial Intelligence/Notes/001 Introduction to AI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001 Introduction to AI"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,15 +217,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "87d61b53a42610ff",
+  "active": "3bc12b9c907cefc8",
   "lastOpenFiles": [
-    "Asynchronous programming][async concepts.md",
+    "Artificial Intelligence/Notes/Suplementary/Concepts.md",
+    "Artificial Intelligence/Notes/004 Unsupervised learning.md",
+    "Artificial Intelligence/Notes/003 Supervised learning.md",
+    "Artificial Intelligence/Notes/002 Intoduction to ML.md",
+    "Artificial Intelligence/Notes/001 Introduction to AI.md",
+    "Pasted image 20260928134909.png",
+    "Pasted image 20260928135811.png",
+    "Pasted image 20260928135749.png",
+    "Artificial Intelligence/Notes/Suplementary",
     "Software engineering/CSharp - Dotnet/Web API.md",
+    "Asynchronous programming][async concepts.md",
     "Software engineering/CSharp - Dotnet/Asynchronous programming.md",
     "README.md",
     "Software engineering/CSharp - Dotnet",
-    "Artificial Intelligence/Notes/002 Intoduction to ML.md",
-    "Artificial Intelligence/Notes/001 Introduction to AI.md",
     "Software engineering",
     "Artificial Intelligence/Notes",
     "30 Projects/README.md",
@@ -225,7 +246,6 @@
     "10 Technology/AI & Machine Learning/Fundamentals",
     "90 Inbox",
     "40 Resources",
-    "30 Projects",
     "20 Languages/Japanese/00 Japanese MOC.md",
     "20 Languages/English/00 English MOC.md",
     "00 Meta/Templates/Study Log Template.md",
